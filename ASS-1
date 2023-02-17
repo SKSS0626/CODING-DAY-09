@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,add,sub,mul,div,rem;
+	printf("Enter the two values:");
+	scanf("%d%d",&a,&b);
+	add=a+b;
+	sub=a-b;
+	mul=a*b;
+	div=a/b;
+	rem=a%b;
+	printf("Addition of given numbers:%d",add);
+	printf("\nSubstraction of given numbers:%d",sub);
+	printf("\nMultiplication of given numbers:%d",mul);
+	printf("\nDivision of given numbers:%d",div);
+	printf("\nReminder of given numbers:%d",rem);
+	return 0;
+}
