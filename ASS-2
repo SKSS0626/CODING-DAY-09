@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int n;
+	printf("Enter the value:");
+	scanf("%d",&n);
+	if(n>50)
+	printf("Greater than 50");
+	else if(n==50)
+	printf("Equal to 50");
+	else
+	printf("Less than 50");
+	return 0;
+}
